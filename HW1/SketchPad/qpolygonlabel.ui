@@ -26,19 +26,6 @@
     <string>Polygon 1</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="button_inner">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>40</y>
-     <width>55</width>
-     <height>30</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>inner</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="button_outer_color">
    <property name="geometry">
     <rect>
