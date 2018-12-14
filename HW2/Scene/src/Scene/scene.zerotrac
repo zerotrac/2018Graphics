@@ -1,0 +1,44 @@
+// zhe xiao zuo ye hao nan xie
+// ming nian zhi xie guang xian zhui zong ba
+// shi xian yuan xing guang yuan
+// shi xian guang zi ying she
+// shi xian bo li cai zhi de zhe she
+// xie ma san fen zhong xuan ran liang xiao shi
+// dou ke yi de ma
+// dou bi feng kuang diao yong API he chao dai ma ran hou debug bu chu lai yao hao wan
+
+sphere 0.45 0.45 0.15
+cube 0.45 0.15 0.45
+cylinder 0.15 0.45 0.45
+
+// wall id: 0:-y 1:+z 2:-x 3:-z 4:+x 5:+y
+
+wall 0 0.5 0.5 0.5
+wall 5 0.5 0.5 0.5
+
+wall 2 0.6 0.15 0.3 // left wall red
+wall 4 0.3 0.6 0.15 // right wall green
+
+wall 1 0.5 0.5 0.5
+wall 3 0.15 0.3 0.6 // front wall blue
+
+f obj 20.0
+f wall 50.0
+
+// do not set environment light too high!
+
+enviro 0.1 0.1 0.1
+
+// light format: light pos_x pos_y pos_z color_r color_g color_b
+
+light -0.2 0.9 -0.2 0.3 0.3 0.3
+light -0.2 0.9 0.2 0.3 0.3 0.3
+light 0.2 0.9 -0.2 0.3 0.3 0.3
+light 0.2 0.9 0.2 0.3 0.3 0.3
+
+// light 0.0 0.0 0.5 0.6 0.5 0.5
+// light 0.0 0.0 -0.5 0.4 0.5 0.4
+// light 0.0 0.8 0.0 0.8 0.8 0.8
+// light 0.0 -0.8 0.0 0.3 0.3 0.3
+
+texture 3.jpg

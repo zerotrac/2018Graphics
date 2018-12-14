@@ -1,0 +1,22 @@
+// how many cube(s) cylinder(s) sphere(s) do you want
+
+cube 1
+cylinder 1
+sphere 3
+
+// m: distance between camera & projection screen
+
+// n: distance between projection screen & scene box
+
+// t: half of the side length of project screen
+// please note that each edge of the scene box ranges from [-1.0, 1.0]
+// thus t should be in (0.0, 1.0) ([-t, t] for each edge of the projection screen)
+// and (m + n) / m * t should be strictly less than 1.0
+
+// size: the number of pixels each line
+
+m 1.0
+n 1.0
+t 0.48
+size 1200
+depth 10
